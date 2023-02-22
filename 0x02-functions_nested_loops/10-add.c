@@ -1,17 +1,11 @@
 #include "main.h"
-#include <stdio.h>
 /**
- * add - a function that adds two integers and returns the result
- * a: first number input
- * b: second number input
- * Return: 
+ * add - adds two numbers together.
+ * @i: The first number to be added.
+ * @j: The second number to be added.
+ * Return: the sum of two numbers.
  */
-int add(int a, int b)
+int add(int i, int j)
 {
-	int n;
-
-        n = add(a, b);
-    	printf("%d\n", n);
-
-    	return (0);
+	return (i + j);
 }
